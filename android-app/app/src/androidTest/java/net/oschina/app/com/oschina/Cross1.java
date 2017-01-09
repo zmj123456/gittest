@@ -19,5 +19,6 @@ public class Cross1 extends BasicTestCase{
         Utils.sendHttpRequest("Cross2","testC","","");
         pageHelper.getPageNewsDetail().clickCountTV();
         pageHelper.getPageCommon().sleep(8);
+
     }
 }
